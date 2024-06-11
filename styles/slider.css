@@ -1,0 +1,70 @@
+.slider-container {
+    background-color: #3c3c3c;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slider-container img {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+/* Estilizando as setas */
+.btn-prev,
+.btn-next {
+    width: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    border: none; /* Remover borda padrão */
+    font-size: 48px; /* Tamanho da fonte */
+    padding: 10px 20px; /* Acolchoamento interno */
+    cursor: pointer; /* Indicar que é clicável */
+    top: 0;
+}
+
+.btn-prev img,
+.btn-next img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-next {
+    right: 0;
+}
+
+
+/* Estilizando os indicadores */
+  .slick-dots {
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 5px; /* Posição inferior */
+    left: 50%; /* Posicionado no centro horizontal */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+}
+      
+.slick-dots li {
+    display: inline-block; /* Exibir como bloco em linha */
+    margin: 0 18px; /* Margem entre os indicadores */
+}
+      
+.slick-dots li button {
+    width: 15px; /* Largura do indicador */
+    height: 15px; /* Altura do indicador */
+    border-radius: 10px;
+    background-color: #ccc; /* Cor de fundo cinza */
+    border: none; /* Remover borda padrão */
+    cursor: pointer; /* Indicar que é clicável */
+    font-size: 0;
+}
+      
+.slick-dots li.slick-active button {
+    background-color: #010175; /* Cor de fundo verde para o indicador ativo */
+}

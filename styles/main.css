@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteudo-principal {
+  flex: 1 1 0;
+  background-color: transparent;
+}
+
+
+.mapa {
+  width: 100%;
+  height: 200px;
+}
+
+.mapa img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.opcoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.opcoes .card {
+  min-width: 200px;
+  height: 200px;
+  margin: 25px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.opcoes .card img {
+  margin: 10px;
+  width: 90px;
+}
+
+.opcoes .card h3 {
+  padding-inline-start: 10px;
+  color: white;
+}
+
+
+footer {
+  background-color: #44f;
+  padding: 10px;
+  color: white;
+  padding-inline-start: 25px;
+}

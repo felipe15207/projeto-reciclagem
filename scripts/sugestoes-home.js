@@ -1,0 +1,16 @@
+let suggestions = [
+"Quais tipos de plástico aceitam para reciclagem?",
+"Aceitam embalagens de alimentos e bebidas?",
+"Aceitam plástico rígido e flexível?",
+"Aceitam embalagens contaminadas com alimentos ou outros produtos?",
+"Aceitam isopor?",
+"Aceitam outros materiais além de plástico?",
+"Vocês oferecem coleta seletiva de plástico?",
+"Onde posso encontrar pontos de coleta de plástico reciclável?",
+"Vocês aceitam doações de plástico reciclável?",
+"Como devo preparar o plástico para reciclagem?",
+"O plástico precisa ser lavado antes de ser reciclado?",
+"O plástico precisa ser seco antes de ser reciclado?",
+"Posso colocar o plástico em sacos plásticos para reciclagem?",
+"O que devo fazer com embalagens de produtos químicos ou outros materiais perigosos?",
+];
